@@ -53,4 +53,4 @@ jobs:
         if: always()
         with:
           name: Coverage results
-          path: ${{ steps.myTestStep.outputs.coveragePath }}
+          path: ${{ steps.testRunner.outputs.coveragePath }}
