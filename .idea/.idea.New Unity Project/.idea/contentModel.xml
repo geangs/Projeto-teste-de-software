@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Gean\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Gean\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gean\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_New Unity Project.-17058250.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Gean\Desktop\testes\New Unity Project" t="IncludeRecursive">
+      <e p="Assets" t="Include">
+        <e p="randomscript.cs" t="Include" />
+        <e p="Scripts.asmdef" t="Include" />
+        <e p="Tests" t="Include">
+          <e p="EditMode" t="Include">
+            <e p="EditMode.asmdef" t="Include" />
+            <e p="TesteTest.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="EditMode.csproj" t="IncludeRecursive" />
+      <e p="New Unity Project.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Scripts.csproj" t="IncludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

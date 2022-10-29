@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts.csproj", "{e5a8833b-173d-e4d0-6ffd-8809733f2e76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditMode", "EditMode.csproj", "{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{e5a8833b-173d-e4d0-6ffd-8809733f2e76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e5a8833b-173d-e4d0-6ffd-8809733f2e76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e5a8833b-173d-e4d0-6ffd-8809733f2e76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{e5a8833b-173d-e4d0-6ffd-8809733f2e76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
