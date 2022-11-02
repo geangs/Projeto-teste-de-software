@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts.csproj", "{e5a8833b-173d-e4d0-6ffd-8809733f2e76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditMode", "EditMode.csproj", "{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{e5a8833b-173d-e4d0-6ffd-8809733f2e76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e5a8833b-173d-e4d0-6ffd-8809733f2e76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{e5a8833b-173d-e4d0-6ffd-8809733f2e76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Release|Any CPU.ActiveCfg = Release|Any CPU

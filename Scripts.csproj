@@ -50,8 +50,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\randomscript.cs" />
-     <None Include="Assets\Scripts.asmdef" />
+     <Compile Include="Assets\Scripts\AllCards.cs" />
+     <Compile Include="Assets\Scripts\CardAction.cs" />
+     <Compile Include="Assets\Scripts\CardData.cs" />
+     <Compile Include="Assets\Scripts\CardPlayer.cs" />
+     <Compile Include="Assets\Scripts\CardScript.cs" />
+     <Compile Include="Assets\Scripts\Deck.cs" />
+     <Compile Include="Assets\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Scripts\FireballAction.cs" />
+     <Compile Include="Assets\Scripts\HandScript.cs" />
+     <Compile Include="Assets\Scripts\RoundManager.cs" />
+     <Compile Include="Assets\Scripts\randomscript.cs" />
+     <None Include="Assets\Scripts\Scripts.asmdef" />
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
