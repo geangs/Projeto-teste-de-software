@@ -57,8 +57,11 @@
      <Compile Include="Assets\Scripts\CardScript.cs" />
      <Compile Include="Assets\Scripts\Deck.cs" />
      <Compile Include="Assets\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Scripts\EndTurnButton.cs" />
+     <Compile Include="Assets\Scripts\EnemyCards.cs" />
      <Compile Include="Assets\Scripts\FireballAction.cs" />
      <Compile Include="Assets\Scripts\HandScript.cs" />
+     <Compile Include="Assets\Scripts\HealAction.cs" />
      <Compile Include="Assets\Scripts\RoundManager.cs" />
      <Compile Include="Assets\Scripts\randomscript.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />

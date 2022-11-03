@@ -5,5 +5,6 @@ using UnityEngine;
 public class AllCards : MonoBehaviour
 {
     public GameObject fireball;
-    
+    public GameObject heal;
+
 }

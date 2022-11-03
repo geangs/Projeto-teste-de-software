@@ -22,6 +22,14 @@ public class Deck : MonoBehaviour
             cards.Add(card);
 
         }
+        
+        for (int i = 0; i < 10; i++)
+        {    
+            var card = Instantiate(AllCards.heal, new Vector3(0, 0, 0), Quaternion.identity);
+            card.SetActive(false);
+            cards.Add(card);
+
+        }
     }
 
     void Update()

@@ -18,6 +18,7 @@ public class Draggable : MonoBehaviour {
     {
         
         selectedCard = transform.gameObject;
+        selectedCard?.GetComponent<CardScript>().pickUp();
         
         dragPlane = new Plane(myMainCamera.transform.forward, transform.position); 
         Ray camRay = myMainCamera.ScreenPointToRay(Input.mousePosition); 
@@ -38,11 +39,16 @@ public class Draggable : MonoBehaviour {
 
     private void OnMouseUp()
     {
-        //if (myMainCamera.ScreenToWorldPoint(Input.mousePosition).y > 0)
-        //{
+        if (myMainCamera.ScreenToWorldPoint(Input.mousePosition).y > 0)
+        {
             selectedCard?.GetComponent<CardScript>().release();
             selectedCard = null;
-        //}
-
+        }
+        else
+        {
+            if(selectedCard != null)
+                GameObject.Find("HandDisplay").GetComponent<HandScript>().fitCard(selectedCard);
+        }
+        
     }
 }

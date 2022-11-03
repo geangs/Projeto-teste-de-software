@@ -23,5 +23,10 @@ public class CardScript : MonoBehaviour
     {
         cardAction.play();
     }
+
+    public void pickUp()
+    {
+        GameObject.Find("HandDisplay").GetComponent<HandScript>().pickUp(transform.gameObject);
+    }
     
 }

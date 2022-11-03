@@ -29,6 +29,27 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Card
       objectReference: {fileID: 0}
+    - target: {fileID: 4474904738534413513, guid: 37269463ddaa6144399ba95aa6fde9ad,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.468
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474904738534413513, guid: 37269463ddaa6144399ba95aa6fde9ad,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474904738534413513, guid: 37269463ddaa6144399ba95aa6fde9ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d948c6159a06e14ea68851ebe0ed42b,
+        type: 3}
+    - target: {fileID: 4474904738534413513, guid: 37269463ddaa6144399ba95aa6fde9ad,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5560121641184516041, guid: 37269463ddaa6144399ba95aa6fde9ad,
         type: 3}
       propertyPath: data

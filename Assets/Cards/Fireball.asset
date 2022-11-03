@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Fireball
   m_EditorClassIdentifier: 
   name: Fireball
-  text: Deal 10000000 damage
+  text: Deal 6 damage
   sprite: {fileID: 21300000, guid: 0d948c6159a06e14ea68851ebe0ed42b, type: 3}
