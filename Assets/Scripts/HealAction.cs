@@ -6,6 +6,6 @@ public class HealAction : CardAction
 {
     public override void act()
     {
-        Debug.Log("health");
+        target.GetComponentInChildren<Health>().addHealth(5);
     }
 }

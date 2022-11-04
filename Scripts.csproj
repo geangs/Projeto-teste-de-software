@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\FireballAction.cs" />
      <Compile Include="Assets\Scripts\HandScript.cs" />
      <Compile Include="Assets\Scripts\HealAction.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\RoundManager.cs" />
      <Compile Include="Assets\Scripts\randomscript.cs" />
      <None Include="Assets\Scripts\Scripts.asmdef" />

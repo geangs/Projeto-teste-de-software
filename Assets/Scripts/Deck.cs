@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using log4net.Util;
+using UnityEditor;
 using UnityEngine;
 
 public class Deck : MonoBehaviour
@@ -17,7 +18,11 @@ public class Deck : MonoBehaviour
         cards = new List<GameObject>();
         for (int i = 0; i < 10; i++)
         {    
-            var card = Instantiate(AllCards.fireball, new Vector3(0, 0, 0), Quaternion.identity);
+            
+            var card = (GameObject)Instantiate(AssetDatabase.LoadAssetAtPath("Assets/Cards/Fireball.prefab",
+                typeof(GameObject)), new Vector3(0, 0, 0), Quaternion.identity);
+            card.GetComponent<CardScript>().cardAction.target = GameObject.Find("EnemyHealth");
+            
             card.SetActive(false);
             cards.Add(card);
 
@@ -25,7 +30,9 @@ public class Deck : MonoBehaviour
         
         for (int i = 0; i < 10; i++)
         {    
-            var card = Instantiate(AllCards.heal, new Vector3(0, 0, 0), Quaternion.identity);
+            var card = (GameObject)Instantiate(AssetDatabase.LoadAssetAtPath("Assets/Cards/Heal.prefab",
+                typeof(GameObject)), new Vector3(0, 0, 0), Quaternion.identity);
+            card.GetComponent<CardScript>().cardAction.target = GameObject.Find("Health");
             card.SetActive(false);
             cards.Add(card);
 

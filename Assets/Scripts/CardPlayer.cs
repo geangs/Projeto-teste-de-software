@@ -10,15 +10,9 @@ public class CardPlayer : MonoBehaviour
 
     void OnMouseUp()
     {
-        Debug.Log("asdfasdf");
         selectedCard?.GetComponent<CardScript>().release();
         selectedCard = null;
-
+        
     }
     
-    void OnMouseDown()
-    {
-        Debug.Log("asdfasdf");
-
-    }
 }

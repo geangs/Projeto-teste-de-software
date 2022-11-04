@@ -8,6 +8,7 @@ public class RoundManager : MonoBehaviour
     public HandScript HandScript;
     public Deck deck;
     public EnemyCards enemyCards;
+    public bool playerTurn = true;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class RoundManager : MonoBehaviour
     public void NextTurn()
     {
         enemyCards.PlayCard();
+        playerTurn = false;
     }
 
     public List<GameObject> GetInitialHand()

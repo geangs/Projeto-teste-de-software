@@ -15,6 +15,11 @@ public class EndTurnButton : MonoBehaviour
 
     private void OnMouseDown()
     {
+        endTurn();
+    }
+
+    public void endTurn()
+    {
         roundManager.NextTurn();
     }
 }

@@ -5,6 +5,8 @@ using UnityEngine;
 public class CardAction : MonoBehaviour
 {
 
+    public GameObject target;
+    
     public void play()
     {
         act();

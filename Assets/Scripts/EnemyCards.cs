@@ -10,13 +10,19 @@ public class EnemyCards : MonoBehaviour
     public AllCards allCards;
 
     private int i = 0;
-
-
+    private int j = 0;
+    
     public void PlayCard()
     {
-        var card = Instantiate(allCards.fireball, new Vector3(0, 0, 0), Quaternion.identity);
-        this.card = card;
-        setToWait = true;
+
+        if (j == 0)
+        {
+            var card = Instantiate(allCards.fireball, new Vector3(0, 0, 0), Quaternion.identity);
+            card.GetComponent<CardScript>().cardAction.target = GameObject.Find("Health");
+            this.card = card;
+            setToWait = true;
+            j = 20;
+        }
     }
 
     void Update()
@@ -30,7 +36,13 @@ public class EnemyCards : MonoBehaviour
                 setToWait = false;
                 card.GetComponent<CardScript>().release();
                 card.SetActive(false);
+                GameObject.Find("RoundManager").GetComponent<RoundManager>().playerTurn = true;
             }
+        }
+
+        if (j != 0)
+        {
+            j--;
         }
             
     }

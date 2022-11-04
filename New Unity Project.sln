@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayMode", "PlayMode.csproj", "{b7aa241e-ee34-ee27-0c82-d6958cad0816}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditMode", "EditMode.csproj", "{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{b28fb5b2-6244-0c6b-a872-40dd957e5fe0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{b7aa241e-ee34-ee27-0c82-d6958cad0816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b7aa241e-ee34-ee27-0c82-d6958cad0816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b7aa241e-ee34-ee27-0c82-d6958cad0816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{b7aa241e-ee34-ee27-0c82-d6958cad0816}.Release|Any CPU.Build.0 = Release|Any CPU
 		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d9a66c02-5d5a-1c20-7c8a-347a4d02b97d}.Release|Any CPU.ActiveCfg = Release|Any CPU
