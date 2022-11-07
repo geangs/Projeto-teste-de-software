@@ -8,4 +8,4 @@ Projeto: Protótipo de jogo do cartas usando unity
 
 
 
-Ferramentas : Unity, Framework de testes de unidado do unity, ferramenta GameCI para integração com github actions
+Ferramentas : Unity, Framework de testes de unidade do unity, ferramenta GameCI para integração com github actions
