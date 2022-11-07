@@ -8,6 +8,7 @@ public class Draggable : MonoBehaviour {
     private Vector3 offset;
     private Camera myMainCamera;
     public static GameObject selectedCard;
+    public bool draggable = true;
 
     void Start()
     {
@@ -16,7 +17,7 @@ public class Draggable : MonoBehaviour {
 
     void OnMouseDown()
     {
-        
+        if(draggable){
         selectedCard = transform.gameObject;
         selectedCard?.GetComponent<CardScript>().pickUp();
         
@@ -26,29 +27,40 @@ public class Draggable : MonoBehaviour {
         float planeDist;
         dragPlane.Raycast(camRay, out planeDist); 
         offset = transform.position - camRay.GetPoint(planeDist);
+        }
     }
 
     void OnMouseDrag()
     {
-        Ray camRay = myMainCamera.ScreenPointToRay(Input.mousePosition); 
 
-        float planeDist;
-        dragPlane.Raycast(camRay, out planeDist);
-        transform.position = camRay.GetPoint(planeDist) + offset;
+        if (draggable)
+        {
+            Ray camRay = myMainCamera.ScreenPointToRay(Input.mousePosition);
+
+            float planeDist;
+            dragPlane.Raycast(camRay, out planeDist);
+            transform.position = camRay.GetPoint(planeDist) + offset;
+
+        }
     }
 
     private void OnMouseUp()
     {
-        if (myMainCamera.ScreenToWorldPoint(Input.mousePosition).y > 0)
+
+        if (draggable)
         {
-            selectedCard?.GetComponent<CardScript>().release();
-            selectedCard = null;
+            if (myMainCamera.ScreenToWorldPoint(Input.mousePosition).y > 0)
+            {
+                selectedCard?.GetComponent<CardScript>().release();
+                selectedCard = null;
+            }
+            else
+            {
+                if (selectedCard != null)
+                    GameObject.Find("HandDisplay").GetComponent<HandScript>().fitCard(selectedCard);
+            }
+
         }
-        else
-        {
-            if(selectedCard != null)
-                GameObject.Find("HandDisplay").GetComponent<HandScript>().fitCard(selectedCard);
-        }
-        
+
     }
 }

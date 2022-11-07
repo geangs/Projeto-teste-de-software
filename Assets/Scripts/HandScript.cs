@@ -39,7 +39,6 @@ public class HandScript : MonoBehaviour
 
     public void organizeCards()
     {
-        
         foreach(var card in cards)
         {
             var slot = findSlot();
@@ -76,5 +75,18 @@ public class HandScript : MonoBehaviour
                 return;
             }
         }
+    }
+
+    public Slot FindCardSlot(GameObject card)
+    {
+        foreach (var slot in slots)
+        {
+            if (slot.card == card)
+            {
+                return slot;
+            }
+        }
+
+        return null;
     }
 }

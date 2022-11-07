@@ -15,14 +15,6 @@ public class DeckTests
     }
     
     [UnityTest]
-    public IEnumerator TestStartingHandSize()
-    {
-        var hand = GameObject.Find("HandDisplay").GetComponent<HandScript>();
-        Assert.AreEqual(5,hand.cards.Count);
-        yield return null;
-    }
-    
-    [UnityTest]
     public IEnumerator TestStartingDeckSize()
     {
         var deck = GameObject.Find("Deck").GetComponent<Deck>();
@@ -37,6 +29,20 @@ public class DeckTests
         var size = deck.cards.Count;
         deck.DrawCard();
         Assert.AreEqual(size,deck.cards.Count+1);
+        yield return null;
+    }
+    
+    [UnityTest]
+    public IEnumerator TestDeckSizeAfterDrawingMultipleCards()
+    {
+        var deck = GameObject.Find("Deck").GetComponent<Deck>();
+        var size = deck.cards.Count;
+        int i = 10;
+        for (int j = 0; j < i; j++)
+        {
+            deck.DrawCard();
+        }
+        Assert.AreEqual(size,deck.cards.Count+i);
         yield return null;
     }
 }

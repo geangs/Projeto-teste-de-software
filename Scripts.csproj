@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\CardData.cs" />
      <Compile Include="Assets\Scripts\CardPlayer.cs" />
      <Compile Include="Assets\Scripts\CardScript.cs" />
+     <Compile Include="Assets\Scripts\Constants.cs" />
      <Compile Include="Assets\Scripts\Deck.cs" />
      <Compile Include="Assets\Scripts\Draggable.cs" />
      <Compile Include="Assets\Scripts\EndTurnButton.cs" />

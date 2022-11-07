@@ -20,11 +20,62 @@ MonoBehaviour:
     height: 685
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 392}
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 50
+    width: 294
+    height: 585
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 1072
+    y: 0
+    width: 294
+    height: 635
+  m_MinSize: {x: 276, y: 192}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 137
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,7 +88,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
+  - {fileID: 11}
   - {fileID: 3}
   m_Position:
     serializedVersion: 2
@@ -45,37 +96,11 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 579, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 578, y: 300}
+  m_MaxSize: {x: 12003, y: 8042}
   vertical: 0
-  controlID: 42
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 967
-    y: 0
-    width: 399
-    height: 635
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
+  controlID: 60
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,16 +117,42 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 220
-    height: 343
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+    width: 294
+    height: 50
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 246
+    height: 535
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,18 +168,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 343
-    width: 967
-    height: 292
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+    y: 535
+    width: 1072
+    height: 100
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 18}
+  - {fileID: 17}
+  - {fileID: 21}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &6
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,18 +192,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 4}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 875, y: 392}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,57 +246,57 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 967
-    height: 635
-  m_MinSize: {x: 303, y: 342}
-  m_MaxSize: {x: 8003, y: 8042}
-  vertical: 1
-  controlID: 43
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 967
-    height: 343
-  m_MinSize: {x: 303, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 44
 --- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1072
+    height: 635
+  m_MinSize: {x: 302, y: 300}
+  m_MaxSize: {x: 8002, y: 8021}
+  vertical: 1
+  controlID: 61
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1072
+    height: 535
+  m_MinSize: {x: 302, y: 200}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 62
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,20 +311,1322 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 220
+    x: 246
     y: 0
-    width: 747
-    height: 343
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
+    width: 826
+    height: 535
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 17}
-  - {fileID: 12}
+  - {fileID: 16}
+  - {fileID: 20}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1072
+    y: 123
+    width: 293
+    height: 564
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 165
+    splitterInitialOffset: 267
+    currentActiveSplitter: -1
+    realSizes: c40000002a010000
+    relativeSizes:
+    - 0.39676112
+    - 0.6032389
+    minSizes: 2000000020000000
+    maxSizes: 0000000000000000
+    lastTotalSize: 494
+    splitSize: 6
+    xOffset: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 14}
+    m_NewResultList:
+    - id: 1008
+      uniqueId: '[New Unity Project][suite]'
+      name: New Unity Project
+      fullName: New Unity Project
+      resultStatus: 1
+      duration: 12.621986
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1017
+      uniqueId: '[PlayMode][C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/PlayMode.dll][suite]'
+      name: PlayMode.dll
+      fullName: C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/PlayMode.dll
+      resultStatus: 1
+      duration: 12.467341
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: '[New Unity Project][suite]'
+    - id: 1009
+      uniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+      name: CardTests
+      fullName: CardTests
+      resultStatus: 1
+      duration: 5.3869705
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1017
+      parentUniqueId: '[PlayMode][C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1006
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestCardIsDisabledAfterPlaying]
+      name: TestCardIsDisabledAfterPlaying
+      fullName: CardTests.TestCardIsDisabledAfterPlaying
+      resultStatus: 1
+      duration: 0.4811734
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1007
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestCardIsPlayedAfterReleasingIt]
+      name: TestCardIsPlayedAfterReleasingIt
+      fullName: CardTests.TestCardIsPlayedAfterReleasingIt
+      resultStatus: 1
+      duration: 0.199242
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1008
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestEnemyCardDisappearAfterBeingPlayed]
+      name: TestEnemyCardDisappearAfterBeingPlayed
+      fullName: CardTests.TestEnemyCardDisappearAfterBeingPlayed
+      resultStatus: 1
+      duration: 0.61176
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1009
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestEnemyCardsAreNotDraggable]
+      name: TestEnemyCardsAreNotDraggable
+      fullName: CardTests.TestEnemyCardsAreNotDraggable
+      resultStatus: 1
+      duration: 0.1686909
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1012
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestEnemyDamagesPlayer]
+      name: TestEnemyDamagesPlayer
+      fullName: CardTests.TestEnemyDamagesPlayer
+      resultStatus: 1
+      duration: 1.6385438
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1010
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestFireball]
+      name: TestFireball
+      fullName: CardTests.TestFireball
+      resultStatus: 1
+      duration: 0.1495667
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1011
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestHeal]
+      name: TestHeal
+      fullName: CardTests.TestHeal
+      resultStatus: 1
+      duration: 0.1537199
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1010
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestPlayerDamagesEnemy]
+      name: TestPlayerDamagesEnemy
+      fullName: CardTests.TestPlayerDamagesEnemy
+      resultStatus: 1
+      duration: 0.1512717
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1011
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestPlayerHeals]
+      name: TestPlayerHeals
+      fullName: CardTests.TestPlayerHeals
+      resultStatus: 1
+      duration: 0.1488369
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1013
+      uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestReturnCardToHand]
+      name: TestReturnCardToHand
+      fullName: CardTests.TestReturnCardToHand
+      resultStatus: 1
+      duration: 1.6477046
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
+    - id: 1014
+      uniqueId: PlayMode.dll/[PlayMode][DeckTests][suite]
+      name: DeckTests
+      fullName: DeckTests
+      resultStatus: 1
+      duration: 0.466648
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1017
+      parentUniqueId: '[PlayMode][C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1016
+      uniqueId: PlayMode.dll/DeckTests/[PlayMode][DeckTests.TestDeckSizeAfterDrawingCard]
+      name: TestDeckSizeAfterDrawingCard
+      fullName: DeckTests.TestDeckSizeAfterDrawingCard
+      resultStatus: 1
+      duration: 0.1308614
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: PlayMode.dll/[PlayMode][DeckTests][suite]
+    - id: 1011
+      uniqueId: PlayMode.dll/DeckTests/[PlayMode][DeckTests.TestDeckSizeAfterDrawingMultipleCards]
+      name: TestDeckSizeAfterDrawingMultipleCards
+      fullName: DeckTests.TestDeckSizeAfterDrawingMultipleCards
+      resultStatus: 1
+      duration: 0.1539801
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: PlayMode.dll/[PlayMode][DeckTests][suite]
+    - id: 1015
+      uniqueId: PlayMode.dll/DeckTests/[PlayMode][DeckTests.TestStartingDeckSize]
+      name: TestStartingDeckSize
+      fullName: DeckTests.TestStartingDeckSize
+      resultStatus: 1
+      duration: 0.1678436
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: PlayMode.dll/[PlayMode][DeckTests][suite]
+    - id: 1014
+      uniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 6.5969563
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: '[PlayMode][C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1012
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.DraggableTests][suite]
+      name: DraggableTests
+      fullName: Tests.DraggableTests
+      resultStatus: 1
+      duration: 0.7846026
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1015
+      uniqueId: PlayMode.dll/Tests/DraggableTests/[PlayMode][Tests.DraggableTests.TestCanDragCard]
+      name: TestCanDragCard
+      fullName: Tests.DraggableTests.TestCanDragCard
+      resultStatus: 1
+      duration: 0.1417562
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.DraggableTests][suite]
+    - id: 1013
+      uniqueId: PlayMode.dll/Tests/DraggableTests/[PlayMode][Tests.DraggableTests.TestCardIsPickedUpAfterClickingIt]
+      name: TestCardIsPickedUpAfterClickingIt
+      fullName: Tests.DraggableTests.TestCardIsPickedUpAfterClickingIt
+      resultStatus: 1
+      duration: 0.1561235
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.DraggableTests][suite]
+    - id: 1014
+      uniqueId: PlayMode.dll/Tests/DraggableTests/[PlayMode][Tests.DraggableTests.TestCardIsReleasedAfterReleasingMouseButton]
+      name: TestCardIsReleasedAfterReleasingMouseButton
+      fullName: Tests.DraggableTests.TestCardIsReleasedAfterReleasingMouseButton
+      resultStatus: 1
+      duration: 0.1588329
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.DraggableTests][suite]
+    - id: 1016
+      uniqueId: PlayMode.dll/Tests/DraggableTests/[PlayMode][Tests.DraggableTests.TestOnlyTopCardIsPickedUp]
+      name: TestOnlyTopCardIsPickedUp
+      fullName: Tests.DraggableTests.TestOnlyTopCardIsPickedUp
+      resultStatus: 1
+      duration: 0.1515107
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.DraggableTests][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/Tests/DraggableTests/[PlayMode][Tests.DraggableTests.TestOnlyTopCardIsRelease]
+      name: TestOnlyTopCardIsRelease
+      fullName: Tests.DraggableTests.TestOnlyTopCardIsRelease
+      resultStatus: 1
+      duration: 0.1621418
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.DraggableTests][suite]
+    - id: 1012
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+      name: HandTests
+      fullName: Tests.HandTests
+      resultStatus: 1
+      duration: 1.6600163
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1024
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1016
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.AllInitialCardsAssignedToASlot]
+      name: AllInitialCardsAssignedToASlot
+      fullName: Tests.HandTests.AllInitialCardsAssignedToASlot
+      resultStatus: 1
+      duration: 0.1387641
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1018
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.FindCorrectSlot]
+      name: FindCorrectSlot
+      fullName: Tests.HandTests.FindCorrectSlot
+      resultStatus: 1
+      duration: 0.1785743
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCardHasCorrectPositionAfterBeingAssignedToASlot]
+      name: TestCardHasCorrectPositionAfterBeingAssignedToASlot
+      fullName: Tests.HandTests.TestCardHasCorrectPositionAfterBeingAssignedToASlot
+      resultStatus: 1
+      duration: 0.1543622
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1019
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCardIsAssignedToCorrectSlotAfterFinding]
+      name: TestCardIsAssignedToCorrectSlotAfterFinding
+      fullName: Tests.HandTests.TestCardIsAssignedToCorrectSlotAfterFinding
+      resultStatus: 1
+      duration: 0.1674593
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1020
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCardLeavesSlotAfterBeingPickedUp]
+      name: TestCardLeavesSlotAfterBeingPickedUp
+      fullName: Tests.HandTests.TestCardLeavesSlotAfterBeingPickedUp
+      resultStatus: 1
+      duration: 0.1445844
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1022
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCorrectSlotsAreOccupiedAfterOrganizingHand]
+      name: TestCorrectSlotsAreOccupiedAfterOrganizingHand
+      fullName: Tests.HandTests.TestCorrectSlotsAreOccupiedAfterOrganizingHand
+      resultStatus: 1
+      duration: 0.1500386
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1013
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestHandSizeAfterPlayingCard]
+      name: TestHandSizeAfterPlayingCard
+      fullName: Tests.HandTests.TestHandSizeAfterPlayingCard
+      resultStatus: 1
+      duration: 0.151592
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1014
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestHandSizeAfterPlayingMultipleCards]
+      name: TestHandSizeAfterPlayingMultipleCards
+      fullName: Tests.HandTests.TestHandSizeAfterPlayingMultipleCards
+      resultStatus: 1
+      duration: 0.2310662
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1015
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestSlotCountEqualToMaxHandSize]
+      name: TestSlotCountEqualToMaxHandSize
+      fullName: Tests.HandTests.TestSlotCountEqualToMaxHandSize
+      resultStatus: 1
+      duration: 0.1508888
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1012
+      uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestStartingHandSize]
+      name: TestStartingHandSize
+      fullName: Tests.HandTests.TestStartingHandSize
+      resultStatus: 1
+      duration: 0.168159
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
+    - id: 1010
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HealthTests][suite]
+      name: HealthTests
+      fullName: Tests.HealthTests
+      resultStatus: 1
+      duration: 0.3165797
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1012
+      uniqueId: PlayMode.dll/Tests/HealthTests/[PlayMode][Tests.HealthTests.TestEnemyStartingHealth]
+      name: TestEnemyStartingHealth
+      fullName: Tests.HealthTests.TestEnemyStartingHealth
+      resultStatus: 1
+      duration: 0.1350596
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HealthTests][suite]
+    - id: 1011
+      uniqueId: PlayMode.dll/Tests/HealthTests/[PlayMode][Tests.HealthTests.TestPlayerStartingHealth]
+      name: TestPlayerStartingHealth
+      fullName: Tests.HealthTests.TestPlayerStartingHealth
+      resultStatus: 1
+      duration: 0.1614916
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HealthTests][suite]
+    - id: 1036
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+      name: ReferenceTests
+      fullName: Tests.ReferenceTests
+      resultStatus: 1
+      duration: 1.5480621
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1052
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1037
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardName]
+      name: TestReferenceCardName
+      fullName: Tests.ReferenceTests.TestReferenceCardName
+      resultStatus: 1
+      duration: 0.13546
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1039
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardNameDraggableCardReference]
+      name: TestReferenceCardNameDraggableCardReference
+      fullName: Tests.ReferenceTests.TestReferenceCardNameDraggableCardReference
+      resultStatus: 1
+      duration: 0.167598
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1039
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardSpriteRenderer]
+      name: TestReferenceCardSpriteRenderer
+      fullName: Tests.ReferenceTests.TestReferenceCardSpriteRenderer
+      resultStatus: 1
+      duration: 0.1461033
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1038
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardText]
+      name: TestReferenceCardText
+      fullName: Tests.ReferenceTests.TestReferenceCardText
+      resultStatus: 1
+      duration: 0.164451
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1040
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceEndTurnButtonRoundManagerReference]
+      name: TestReferenceEndTurnButtonRoundManagerReference
+      fullName: Tests.ReferenceTests.TestReferenceEndTurnButtonRoundManagerReference
+      resultStatus: 1
+      duration: 0.1510901
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1043
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceEnemyHealthText]
+      name: TestReferenceEnemyHealthText
+      fullName: Tests.ReferenceTests.TestReferenceEnemyHealthText
+      resultStatus: 1
+      duration: 0.1479873
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1041
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceHealthText]
+      name: TestReferenceHealthText
+      fullName: Tests.ReferenceTests.TestReferenceHealthText
+      resultStatus: 1
+      duration: 0.1467812
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1043
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceRoundManagerDeck]
+      name: TestReferenceRoundManagerDeck
+      fullName: Tests.ReferenceTests.TestReferenceRoundManagerDeck
+      resultStatus: 1
+      duration: 0.1523691
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1044
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceRoundManagerEnemyCards]
+      name: TestReferenceRoundManagerEnemyCards
+      fullName: Tests.ReferenceTests.TestReferenceRoundManagerEnemyCards
+      resultStatus: 1
+      duration: 0.156873
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1042
+      uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceRoundManagerHandScript]
+      name: TestReferenceRoundManagerHandScript
+      fullName: Tests.ReferenceTests.TestReferenceRoundManagerHandScript
+      resultStatus: 1
+      duration: 0.1538948
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
+    - id: 1013
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
+      name: RoundTests
+      fullName: Tests.RoundTests
+      resultStatus: 1
+      duration: 2.2588966
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1019
+      parentUniqueId: PlayMode.dll/[PlayMode][Tests][suite]
+    - id: 1029
+      uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.PlayerGoesFirst]
+      name: PlayerGoesFirst
+      fullName: Tests.RoundTests.PlayerGoesFirst
+      resultStatus: 1
+      duration: 0.1378905
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
+    - id: 1015
+      uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestEndRoundButton]
+      name: TestEndRoundButton
+      fullName: Tests.RoundTests.TestEndRoundButton
+      resultStatus: 1
+      duration: 0.1530581
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
+    - id: 1018
+      uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerLosesWhenTheyHaveZeroHealth]
+      name: TestPlayerLosesWhenTheyHaveZeroHealth
+      fullName: Tests.RoundTests.TestPlayerLosesWhenTheyHaveZeroHealth
+      resultStatus: 1
+      duration: 0.1488792
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
+    - id: 1014
+      uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerTurnAfterEnemyPlaysCard]
+      name: TestPlayerTurnAfterEnemyPlaysCard
+      fullName: Tests.RoundTests.TestPlayerTurnAfterEnemyPlaysCard
+      resultStatus: 1
+      duration: 1.6515692
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
+    - id: 1016
+      uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerWinsWhenEnemyHasZeroHealth]
+      name: TestPlayerWinsWhenEnemyHasZeroHealth
+      fullName: Tests.RoundTests.TestPlayerWinsWhenEnemyHasZeroHealth
+      resultStatus: 1
+      duration: 0.1482791
+      messages: 
+      output: 'deck
+
+        round
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
+    m_ResultText: 'TestPlayerLosesWhenTheyHaveZeroHealth (0,149s)
+
+      ---
+
+      deck
+
+      round'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 96}
+      m_SelectedIDs: c4355b87
+      m_LastClickedID: -2024065596
+      m_ExpandedIDs: f4804fdce0de94f7de7487f828c00b42ba152f47b3671d60bc805a6d51f4e97affffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 14}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[New Unity Project][suite]'
+      name: New Unity Project
+      fullName: New Unity Project
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1003
+      uniqueId: '[EditMode.dll][suite]'
+      name: EditMode.dll
+      fullName: C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/EditMode.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[New Unity Project][suite]'
+    - id: 1004
+      uniqueId: EditMode.dll/[EditMode][Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[EditMode.dll][suite]'
+    - id: 1001
+      uniqueId: EditMode.dll/Tests/[EditMode][Tests.TesteTest][suite]
+      name: TesteTest
+      fullName: Tests.TesteTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: EditMode.dll/[EditMode][Tests][suite]
+    - id: 1002
+      uniqueId: EditMode.dll/Tests/TesteTest/[EditMode][Tests.TesteTest.TesteTestSimplePasses]
+      name: TesteTestSimplePasses
+      fullName: Tests.TesteTest.TesteTestSimplePasses
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/Tests/[EditMode][Tests.TesteTest][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3cdc509e85562d2228c00b424b5ea47cffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -337,7 +1690,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -358,10 +1711,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 220
+    x: 246
     y: 73
-    width: 745
-    height: 322
+    width: 824
+    height: 514
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 45a8ca1407ecfe946ab79d111da6928f
@@ -373,9 +1726,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.104758844, y: -0.46068442, z: -3.7295873}
+    m_Target: {x: -0.65653086, y: -0.9930133, z: -28.647213}
     speed: 2
-    m_Value: {x: 0.104758844, y: -0.46068442, z: -3.7295873}
+    m_Value: {x: -0.65653086, y: -0.9930133, z: -28.647213}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -405,7 +1758,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -413,7 +1766,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 1
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -425,9 +1778,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.6645327
+    m_Target: 6.1219277
     speed: 2
-    m_Value: 5.6645327
+    m_Value: 6.1219277
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -452,7 +1805,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &14
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -474,9 +1827,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 416
-    width: 966
-    height: 271
+    y: 430
+    width: 882
+    height: 257
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -491,20 +1844,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Cards
+    - Assets/Tests/PlayMode
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Cards
+  - Assets/Tests/PlayMode
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gean\Desktop\testes\New Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 72380000
-    m_LastClickedID: 14450
-    m_ExpandedIDs: 000000006a3800006c38000000ca9a3b
+    m_SelectedIDs: 8a390000
+    m_LastClickedID: 14730
+    m_ExpandedIDs: 000000007a3900007c39000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,7 +1873,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 7}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -532,7 +1885,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a3800006c380000
+    m_ExpandedIDs: 000000007a3900007c390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -557,8 +1910,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2e59ffff
-    m_LastClickedInstanceID: -42706
+    m_SelectedInstanceIDs: 8e390000
+    m_LastClickedInstanceID: 14734
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000000000007e390000ca4300006e3900007c390000
     m_RenameOverlay:
@@ -576,7 +1929,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -588,7 +1941,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 195
---- !u!114 &15
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -609,10 +1962,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 967
+    x: 1072
     y: 73
-    width: 398
-    height: 614
+    width: 293
+    height: 29
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -620,13 +1973,13 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 151
+    m_CachedPref: -151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &16
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -649,15 +2002,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 219
-    height: 322
+    width: 245
+    height: 514
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2e59ffff
-      m_LastClickedID: -42706
-      m_ExpandedIDs: 3059ffffae75ffff8cadffff9cadfffff8b6ffff08b7ffff62fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8c6cf4ffa26cf4ffec4cf5ff8a4df5ffa04df5ff042ef6ff9c2ef6ffb22ef6fffc0ef7ffe80ff7fffe0ff7ff48f0f7ff56f6f7ff6cf6f7ffb6d6f8ffb0d9f8ffc6d9f8ffdcd9f8ff26baf9ff88bcf9ff8cbcf9ffa2bcf9fffc97faffd69afaffec9afaff4676fbff8276fbff9876fbff549ffbffeca1fbff02a2fbff5c7dfcff407efcff567efcffc054fdff6c55fdff8255fdffec2bfeffb42dfeffca2dfeffb4dcfeff5edefeff74defeff9e79ffff767bffff8c7bffff26f4fffff6f4ffff0cf5ffff7afaffff62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -673,7 +2026,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -681,7 +2034,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 41be156e6c1d2934b8fec1bf79b44eae
---- !u!114 &17
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -702,10 +2055,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 220
+    x: 203
     y: 73
-    width: 745
-    height: 322
+    width: 678
+    height: 280
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -715,7 +2068,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 745, y: 301}
+  m_TargetSize: {x: 678, y: 259}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -730,10 +2083,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -372.5
-    m_HBaseRangeMax: 372.5
-    m_VBaseRangeMin: -150.5
-    m_VBaseRangeMax: 150.5
+    m_HBaseRangeMin: -339
+    m_HBaseRangeMax: 339
+    m_VBaseRangeMin: -129.5
+    m_VBaseRangeMax: 129.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -751,29 +2104,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 745
-      height: 301
+      width: 678
+      height: 259
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 372.5, y: 150.5}
+    m_Translation: {x: 339, y: 129.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -372.5
-      y: -150.5
-      width: 745
-      height: 301
+      x: -339
+      y: -129.5
+      width: 678
+      height: 259
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 745, y: 322}
+  m_LastWindowPixelSize: {x: 678, y: 280}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -795,7 +2148,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 416
-    width: 966
-    height: 271
+    y: 608
+    width: 1071
+    height: 79
   m_ViewDataDictionary: {fileID: 0}

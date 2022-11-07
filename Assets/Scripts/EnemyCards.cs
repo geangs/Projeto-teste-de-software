@@ -12,17 +12,21 @@ public class EnemyCards : MonoBehaviour
     private int i = 0;
     private int j = 0;
     
-    public void PlayCard()
+    public GameObject PlayCard()
     {
 
         if (j == 0)
         {
             var card = Instantiate(allCards.fireball, new Vector3(0, 0, 0), Quaternion.identity);
+            card.GetComponent<Draggable>().draggable = false;
             card.GetComponent<CardScript>().cardAction.target = GameObject.Find("Health");
             this.card = card;
             setToWait = true;
             j = 20;
+            return card;
         }
+
+        return null;
     }
 
     void Update()
@@ -37,6 +41,7 @@ public class EnemyCards : MonoBehaviour
                 card.GetComponent<CardScript>().release();
                 card.SetActive(false);
                 GameObject.Find("RoundManager").GetComponent<RoundManager>().playerTurn = true;
+                GameObject.FindObjectOfType<EndTurnButton>().canClick = true;
             }
         }
 

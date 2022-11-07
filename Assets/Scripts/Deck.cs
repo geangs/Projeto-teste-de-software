@@ -46,10 +46,15 @@ public class Deck : MonoBehaviour
 
     public GameObject DrawCard()
     {
-        var card = cards[Random.Range(0,cards.Count-1)];
-        card.SetActive(true);
-        cards.Remove(card);
-        return card;
+        if (cards.Count > 0)
+        {
+            var card = cards[Random.Range(0, cards.Count - 1)];
+            card.SetActive(true);
+            cards.Remove(card);
+            return card;
+        }
+
+        return null;
     }
 
     public List<GameObject> GetInitialHand()

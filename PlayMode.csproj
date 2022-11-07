@@ -52,7 +52,10 @@
   <ItemGroup>
      <Compile Include="Assets\Tests\PlayMode\CardTests.cs" />
      <Compile Include="Assets\Tests\PlayMode\DeckTests.cs" />
+     <Compile Include="Assets\Tests\PlayMode\DraggableTests.cs" />
+     <Compile Include="Assets\Tests\PlayMode\HandTests.cs" />
      <Compile Include="Assets\Tests\PlayMode\HealthTests.cs" />
+     <Compile Include="Assets\Tests\PlayMode\ReferenceTests.cs" />
      <Compile Include="Assets\Tests\PlayMode\RoundTests.cs" />
      <Compile Include="Assets\Tests\PlayMode\UiTests.cs" />
      <None Include="Assets\Tests\PlayMode\PlayMode.asmdef" />

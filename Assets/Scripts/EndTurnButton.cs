@@ -7,6 +7,7 @@ public class EndTurnButton : MonoBehaviour
 {
     public RoundManager roundManager;
     private int i = 0;
+    public bool canClick = true;
     
     private void Start()
     {
@@ -15,11 +16,14 @@ public class EndTurnButton : MonoBehaviour
 
     private void OnMouseDown()
     {
-        endTurn();
+        if(canClick)
+            endTurn();
     }
 
     public void endTurn()
     {
+        canClick = false;
         roundManager.NextTurn();
+        
     }
 }

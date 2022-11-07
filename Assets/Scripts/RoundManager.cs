@@ -14,7 +14,7 @@ public class RoundManager : MonoBehaviour
     {
         Debug.Log("round");
         HandScript.cards = GetInitialHand();
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < Constants.maxHandSize; i++)
         {
             HandScript.slots.Add(new HandScript.Slot(i));
         }
