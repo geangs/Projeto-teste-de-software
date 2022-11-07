@@ -15,7 +15,7 @@ public class Health : MonoBehaviour
         if (value + amount < Constants.maxHealth)
             value += amount;
         else
-            value = Constants.maxHandSize;
+            value = Constants.maxHealth;
         
         GetComponentInChildren<TextMeshPro>().text = "Health: " + value;
 
