@@ -54,3 +54,10 @@ jobs:
         with:
           name: Coverage results
           path: ${{ steps.testRunner.outputs.coveragePath }}
+      - name: Upload XML report to Codecov
+        uses: codecov/codecov-action@v2
+        with:
+           name: PlayMode
+           flags: automated
+           token: ${{ secrets.CODECOV_TOKEN }}
+           files: coverage-results/**/*.xml
