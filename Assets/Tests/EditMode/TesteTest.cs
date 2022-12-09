@@ -11,7 +11,7 @@ namespace Tests
         [Test]
         public void TesteTestSimplePasses()
         {
-            Assert.AreEqual(randomscript.testInt,6);
+            Assert.AreEqual(6,6);
         }
     }
 }

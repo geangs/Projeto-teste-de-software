@@ -40,7 +40,9 @@
       <Path>Library/PackageCache/com.unity.modules.vr@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.modules.wind@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.modules.xr@1.0.0</Path>
+      <Path>Library/PackageCache/com.unity.settings-manager@1.0.1</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.31</Path>
+      <Path>Library/PackageCache/com.unity.testtools.codecoverage@1.2.2</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@2.1.6</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.2.18</Path>
       <Path>Library/PackageCache/com.unity.ugui@1.0.0</Path>
@@ -51,6 +53,7 @@
       <Path>.git</Path>
       <Path>.github</Path>
       <Path>.idea</Path>
+      <Path>CodeCoverage</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>

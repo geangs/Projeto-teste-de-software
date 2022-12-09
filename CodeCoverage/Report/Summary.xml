@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>09/12/2022 - 16:18:20</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>1</Assemblies>
+    <Classes>13</Classes>
+    <Files>13</Files>
+    <Coveredlines>200</Coveredlines>
+    <Uncoveredlines>51</Uncoveredlines>
+    <Coverablelines>251</Coverablelines>
+    <Totallines>504</Totallines>
+    <Linecoverage>79.6</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>36</Coveredmethods>
+    <Totalmethods>44</Totalmethods>
+    <Methodcoverage>81.8</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="Scripts" classes="13" coverage="79.6" coveredlines="200" coverablelines="251" totallines="504" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="36" totalmethods="44" methodcoverage="81.8">
+      <Class name="CardAction" coverage="50" coveredlines="4" coverablelines="8" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
+      <Class name="CardPlayer" coverage="0" coveredlines="0" coverablelines="4" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="CardScript" coverage="76.4" coveredlines="13" coverablelines="17" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="5" methodcoverage="80" />
+      <Class name="Constants" coverage="100" coveredlines="7" coverablelines="7" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Deck" coverage="100" coveredlines="38" coverablelines="38" totallines="71" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Draggable" coverage="11.1" coveredlines="4" coverablelines="36" totallines="66" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="5" methodcoverage="40" />
+      <Class name="EndTurnButton" coverage="69.2" coveredlines="9" coverablelines="13" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
+      <Class name="EnemyCards" coverage="97" coveredlines="33" coverablelines="34" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="FireballAction" coverage="100" coveredlines="3" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="HandScript" coverage="96.2" coveredlines="51" coverablelines="53" totallines="92" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="10" totalmethods="10" methodcoverage="100" />
+      <Class name="HealAction" coverage="100" coveredlines="3" coverablelines="3" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Health" coverage="100" coveredlines="18" coverablelines="18" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="RoundManager" coverage="100" coveredlines="17" coverablelines="17" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

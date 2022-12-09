@@ -22,7 +22,6 @@
           <e p="HandScript.cs" t="Include" />
           <e p="HealAction.cs" t="Include" />
           <e p="Health.cs" t="Include" />
-          <e p="randomscript.cs" t="Include" />
           <e p="RoundManager.cs" t="Include" />
           <e p="Scripts.asmdef" t="Include" />
         </e>
