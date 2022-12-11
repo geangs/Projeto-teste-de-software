@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43
-    width: 1366
-    height: 685
+    x: 8
+    y: 51
+    width: 1350
+    height: 669
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -40,9 +40,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 140
-    width: 456
-    height: 495
+    y: 137
+    width: 446
+    height: 482
   m_MinSize: {x: 446, y: 86}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -68,14 +68,14 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 910
+    x: 904
     y: 0
-    width: 456
-    height: 635
+    width: 446
+    height: 619
   m_MinSize: {x: 446, y: 157}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 124
+  controlID: 131
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,12 +95,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1366
-    height: 635
+    width: 1350
+    height: 619
   m_MinSize: {x: 749, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 130
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -118,8 +118,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 456
-    height: 140
+    width: 446
+    height: 137
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
@@ -144,8 +144,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 232
-    height: 364
+    width: 239
+    height: 271
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
@@ -169,9 +169,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 364
-    width: 910
-    height: 271
+    y: 271
+    width: 904
+    height: 348
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -200,8 +200,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
-    height: 685
+    width: 1350
+    height: 669
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &9
@@ -221,7 +221,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
+    width: 1350
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -242,8 +242,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 665
-    width: 1366
+    y: 649
+    width: 1350
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -266,12 +266,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 910
-    height: 635
+    width: 904
+    height: 619
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 61
+  controlID: 176
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,12 +291,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 910
-    height: 364
+    width: 904
+    height: 271
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 62
+  controlID: 64
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -312,10 +312,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 232
+    x: 239
     y: 0
-    width: 678
-    height: 364
+    width: 665
+    height: 271
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -345,10 +345,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 910
-    y: 213
-    width: 455
-    height: 474
+    x: 912
+    y: 218
+    width: 445
+    height: 461
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &15
 MonoBehaviour:
@@ -370,22 +370,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 910
-    y: 213
-    width: 455
-    height: 474
+    x: 920
+    y: 214
+    width: 445
+    height: 473
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 157
+    ID: 305
     splitterInitialOffset: 289
     currentActiveSplitter: -1
-    realSizes: bc000000d8000000
+    realSizes: bb000000d8000000
     relativeSizes:
     - 0.4651163
     - 0.53488374
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 404
+    lastTotalSize: 403
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 0
@@ -396,8 +396,8 @@ MonoBehaviour:
       uniqueId: '[New Unity Project][suite]'
       name: New Unity Project
       fullName: New Unity Project
-      resultStatus: 1
-      duration: 22.210135
+      resultStatus: 0
+      duration: 25.195606
       messages: 
       output: 
       stacktrace: 
@@ -412,8 +412,8 @@ MonoBehaviour:
       uniqueId: '[PlayMode][C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/PlayMode.dll][suite]'
       name: PlayMode.dll
       fullName: C:/Users/Gean/Desktop/testes/New Unity Project/Library/ScriptAssemblies/PlayMode.dll
-      resultStatus: 1
-      duration: 22.065647
+      resultStatus: 0
+      duration: 24.879326
       messages: 
       output: 
       stacktrace: 
@@ -428,8 +428,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][CardTests][suite]
       name: CardTests
       fullName: CardTests
-      resultStatus: 1
-      duration: 8.320223
+      resultStatus: 0
+      duration: 11.0779
       messages: 
       output: 
       stacktrace: 
@@ -444,8 +444,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestAllPlayerCardAreDraggable]
       name: TestAllPlayerCardAreDraggable
       fullName: CardTests.TestAllPlayerCardAreDraggable
-      resultStatus: 1
-      duration: 0.4070979
+      resultStatus: 0
+      duration: 1.762464
       messages: 
       output: 'deck
 
@@ -465,8 +465,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestAllPlayerCardArePlayable]
       name: TestAllPlayerCardArePlayable
       fullName: CardTests.TestAllPlayerCardArePlayable
-      resultStatus: 1
-      duration: 0.3239442
+      resultStatus: 0
+      duration: 0.226816
       messages: 
       output: 'deck
 
@@ -486,8 +486,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestCardIsDisabledAfterPlaying]
       name: TestCardIsDisabledAfterPlaying
       fullName: CardTests.TestCardIsDisabledAfterPlaying
-      resultStatus: 1
-      duration: 0.169441
+      resultStatus: 0
+      duration: 0.2425425
       messages: 
       output: 'deck
 
@@ -507,8 +507,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestCardIsPlayedAfterReleasingIt]
       name: TestCardIsPlayedAfterReleasingIt
       fullName: CardTests.TestCardIsPlayedAfterReleasingIt
-      resultStatus: 1
-      duration: 0.1920501
+      resultStatus: 0
+      duration: 0.2122156
       messages: 
       output: 'deck
 
@@ -528,8 +528,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestEnemyCardDisappearAfterBeingPlayed]
       name: TestEnemyCardDisappearAfterBeingPlayed
       fullName: CardTests.TestEnemyCardDisappearAfterBeingPlayed
-      resultStatus: 1
-      duration: 2.6720126
+      resultStatus: 0
+      duration: 2.7699223
       messages: 
       output: 'deck
 
@@ -549,8 +549,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestEnemyCardsAreNotDraggable]
       name: TestEnemyCardsAreNotDraggable
       fullName: CardTests.TestEnemyCardsAreNotDraggable
-      resultStatus: 1
-      duration: 0.1614129
+      resultStatus: 0
+      duration: 0.3147999
       messages: 
       output: 'deck
 
@@ -570,8 +570,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestEnemyCardsAreNotPlayable]
       name: TestEnemyCardsAreNotPlayable
       fullName: CardTests.TestEnemyCardsAreNotPlayable
-      resultStatus: 1
-      duration: 0.1867675
+      resultStatus: 0
+      duration: 0.385741
       messages: 
       output: 'deck
 
@@ -591,8 +591,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestEnemyDamagesPlayer]
       name: TestEnemyDamagesPlayer
       fullName: CardTests.TestEnemyDamagesPlayer
-      resultStatus: 1
-      duration: 3.1523943
+      resultStatus: 0
+      duration: 3.3173144
       messages: 
       output: 'deck
 
@@ -612,8 +612,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestFireball]
       name: TestFireball
       fullName: CardTests.TestFireball
-      resultStatus: 1
-      duration: 0.1593697
+      resultStatus: 0
+      duration: 0.4994995
       messages: 
       output: 'deck
 
@@ -633,8 +633,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestHeal]
       name: TestHeal
       fullName: CardTests.TestHeal
-      resultStatus: 1
-      duration: 0.1646069
+      resultStatus: 0
+      duration: 0.2782386
       messages: 
       output: 'deck
 
@@ -654,8 +654,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestPlayerDamagesEnemy]
       name: TestPlayerDamagesEnemy
       fullName: CardTests.TestPlayerDamagesEnemy
-      resultStatus: 1
-      duration: 0.2713908
+      resultStatus: 0
+      duration: 0.2010731
       messages: 
       output: 'deck
 
@@ -675,8 +675,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestPlayerHeals]
       name: TestPlayerHeals
       fullName: CardTests.TestPlayerHeals
-      resultStatus: 1
-      duration: 0.2008649
+      resultStatus: 0
+      duration: 0.2015901
       messages: 
       output: 'deck
 
@@ -696,8 +696,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/CardTests/[PlayMode][CardTests.TestReturnCardToHand]
       name: TestReturnCardToHand
       fullName: CardTests.TestReturnCardToHand
-      resultStatus: 1
-      duration: 0.2029166
+      resultStatus: 0
+      duration: 0.2358911
       messages: 
       output: 'deck
 
@@ -717,8 +717,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][DeckTests][suite]
       name: DeckTests
       fullName: DeckTests
-      resultStatus: 1
-      duration: 0.6824396
+      resultStatus: 0
+      duration: 0.6779832
       messages: 
       output: 
       stacktrace: 
@@ -733,8 +733,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/DeckTests/[PlayMode][DeckTests.TestDeckSizeAfterDrawingCard]
       name: TestDeckSizeAfterDrawingCard
       fullName: DeckTests.TestDeckSizeAfterDrawingCard
-      resultStatus: 1
-      duration: 0.2258825
+      resultStatus: 0
+      duration: 0.2090719
       messages: 
       output: 'deck
 
@@ -754,8 +754,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/DeckTests/[PlayMode][DeckTests.TestDeckSizeAfterDrawingMultipleCards]
       name: TestDeckSizeAfterDrawingMultipleCards
       fullName: DeckTests.TestDeckSizeAfterDrawingMultipleCards
-      resultStatus: 1
-      duration: 0.1921924
+      resultStatus: 0
+      duration: 0.2424843
       messages: 
       output: 'deck
 
@@ -775,8 +775,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/DeckTests/[PlayMode][DeckTests.TestStartingDeckSize]
       name: TestStartingDeckSize
       fullName: DeckTests.TestStartingDeckSize
-      resultStatus: 1
-      duration: 0.2353683
+      resultStatus: 0
+      duration: 0.1986654
       messages: 
       output: 'deck
 
@@ -796,8 +796,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[PlayMode][Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 1
-      duration: 13.040752
+      resultStatus: 0
+      duration: 13.052505
       messages: 
       output: 
       stacktrace: 
@@ -812,8 +812,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HandTests][suite]
       name: HandTests
       fullName: Tests.HandTests
-      resultStatus: 1
-      duration: 2.6824682
+      resultStatus: 0
+      duration: 2.2119749
       messages: 
       output: 
       stacktrace: 
@@ -828,8 +828,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.AllInitialCardsAssignedToASlot]
       name: AllInitialCardsAssignedToASlot
       fullName: Tests.HandTests.AllInitialCardsAssignedToASlot
-      resultStatus: 1
-      duration: 0.1943614
+      resultStatus: 0
+      duration: 0.2112722
       messages: 
       output: 'deck
 
@@ -849,8 +849,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.FindCorrectSlot]
       name: FindCorrectSlot
       fullName: Tests.HandTests.FindCorrectSlot
-      resultStatus: 1
-      duration: 0.1693691
+      resultStatus: 0
+      duration: 0.1999232
       messages: 
       output: 'deck
 
@@ -870,8 +870,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCardHasCorrectPositionAfterBeingAssignedToASlot]
       name: TestCardHasCorrectPositionAfterBeingAssignedToASlot
       fullName: Tests.HandTests.TestCardHasCorrectPositionAfterBeingAssignedToASlot
-      resultStatus: 1
-      duration: 0.4125228
+      resultStatus: 0
+      duration: 0.2160214
       messages: 
       output: 'deck
 
@@ -891,8 +891,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCardIsAssignedToCorrectSlotAfterFinding]
       name: TestCardIsAssignedToCorrectSlotAfterFinding
       fullName: Tests.HandTests.TestCardIsAssignedToCorrectSlotAfterFinding
-      resultStatus: 1
-      duration: 0.2395056
+      resultStatus: 0
+      duration: 0.2118382
       messages: 
       output: 'deck
 
@@ -912,8 +912,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCardLeavesSlotAfterBeingPickedUp]
       name: TestCardLeavesSlotAfterBeingPickedUp
       fullName: Tests.HandTests.TestCardLeavesSlotAfterBeingPickedUp
-      resultStatus: 1
-      duration: 0.1925388
+      resultStatus: 0
+      duration: 0.2068047
       messages: 
       output: 'deck
 
@@ -933,8 +933,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestCorrectSlotsAreOccupiedAfterOrganizingHand]
       name: TestCorrectSlotsAreOccupiedAfterOrganizingHand
       fullName: Tests.HandTests.TestCorrectSlotsAreOccupiedAfterOrganizingHand
-      resultStatus: 1
-      duration: 0.1579284
+      resultStatus: 0
+      duration: 0.1870961
       messages: 
       output: 'deck
 
@@ -954,8 +954,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestHandSizeAfterPlayingCard]
       name: TestHandSizeAfterPlayingCard
       fullName: Tests.HandTests.TestHandSizeAfterPlayingCard
-      resultStatus: 1
-      duration: 0.2920829
+      resultStatus: 0
+      duration: 0.186249
       messages: 
       output: 'deck
 
@@ -975,8 +975,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestHandSizeAfterPlayingMultipleCards]
       name: TestHandSizeAfterPlayingMultipleCards
       fullName: Tests.HandTests.TestHandSizeAfterPlayingMultipleCards
-      resultStatus: 1
-      duration: 0.3050279
+      resultStatus: 0
+      duration: 0.204315
       messages: 
       output: 'deck
 
@@ -996,8 +996,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestSlotCountEqualToMaxHandSize]
       name: TestSlotCountEqualToMaxHandSize
       fullName: Tests.HandTests.TestSlotCountEqualToMaxHandSize
-      resultStatus: 1
-      duration: 0.318292
+      resultStatus: 0
+      duration: 0.200238
       messages: 
       output: 'deck
 
@@ -1017,8 +1017,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HandTests/[PlayMode][Tests.HandTests.TestStartingHandSize]
       name: TestStartingHandSize
       fullName: Tests.HandTests.TestStartingHandSize
-      resultStatus: 1
-      duration: 0.3585978
+      resultStatus: 0
+      duration: 0.372884
       messages: 
       output: 'deck
 
@@ -1038,8 +1038,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.HealthTests][suite]
       name: HealthTests
       fullName: Tests.HealthTests
-      resultStatus: 1
-      duration: 0.5537172
+      resultStatus: 0
+      duration: 0.551261
       messages: 
       output: 
       stacktrace: 
@@ -1054,8 +1054,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HealthTests/[PlayMode][Tests.HealthTests.TestEnemyStartingHealth]
       name: TestEnemyStartingHealth
       fullName: Tests.HealthTests.TestEnemyStartingHealth
-      resultStatus: 1
-      duration: 0.2777071
+      resultStatus: 0
+      duration: 0.3016058
       messages: 
       output: 'deck
 
@@ -1075,8 +1075,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/HealthTests/[PlayMode][Tests.HealthTests.TestPlayerStartingHealth]
       name: TestPlayerStartingHealth
       fullName: Tests.HealthTests.TestPlayerStartingHealth
-      resultStatus: 1
-      duration: 0.2313434
+      resultStatus: 0
+      duration: 0.21347
       messages: 
       output: 'deck
 
@@ -1096,8 +1096,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ReferenceTests][suite]
       name: ReferenceTests
       fullName: Tests.ReferenceTests
-      resultStatus: 1
-      duration: 3.18313
+      resultStatus: 0
+      duration: 3.2066095
       messages: 
       output: 
       stacktrace: 
@@ -1112,8 +1112,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardDraggableCardReference]
       name: TestReferenceCardDraggableCardReference
       fullName: Tests.ReferenceTests.TestReferenceCardDraggableCardReference
-      resultStatus: 1
-      duration: 0.2632366
+      resultStatus: 0
+      duration: 0.2887204
       messages: 
       output: 'deck
 
@@ -1133,8 +1133,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardName]
       name: TestReferenceCardName
       fullName: Tests.ReferenceTests.TestReferenceCardName
-      resultStatus: 1
-      duration: 0.2466945
+      resultStatus: 0
+      duration: 0.2557307
       messages: 
       output: 'deck
 
@@ -1154,8 +1154,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardSpriteRenderer]
       name: TestReferenceCardSpriteRenderer
       fullName: Tests.ReferenceTests.TestReferenceCardSpriteRenderer
-      resultStatus: 1
-      duration: 0.340231
+      resultStatus: 0
+      duration: 0.2794255
       messages: 
       output: 'deck
 
@@ -1175,8 +1175,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceCardText]
       name: TestReferenceCardText
       fullName: Tests.ReferenceTests.TestReferenceCardText
-      resultStatus: 1
-      duration: 0.3097862
+      resultStatus: 0
+      duration: 0.3449105
       messages: 
       output: 'deck
 
@@ -1196,8 +1196,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceEndTurnButtonRoundManagerReference]
       name: TestReferenceEndTurnButtonRoundManagerReference
       fullName: Tests.ReferenceTests.TestReferenceEndTurnButtonRoundManagerReference
-      resultStatus: 1
-      duration: 0.2644924
+      resultStatus: 0
+      duration: 0.3173889
       messages: 
       output: 'deck
 
@@ -1217,8 +1217,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceEnemyHealthText]
       name: TestReferenceEnemyHealthText
       fullName: Tests.ReferenceTests.TestReferenceEnemyHealthText
-      resultStatus: 1
-      duration: 0.2586595
+      resultStatus: 0
+      duration: 0.3379188
       messages: 
       output: 'deck
 
@@ -1238,8 +1238,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceHealthText]
       name: TestReferenceHealthText
       fullName: Tests.ReferenceTests.TestReferenceHealthText
-      resultStatus: 1
-      duration: 0.3235022
+      resultStatus: 0
+      duration: 0.3118722
       messages: 
       output: 'deck
 
@@ -1259,8 +1259,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceRoundManagerDeck]
       name: TestReferenceRoundManagerDeck
       fullName: Tests.ReferenceTests.TestReferenceRoundManagerDeck
-      resultStatus: 1
-      duration: 0.3461289
+      resultStatus: 0
+      duration: 0.3510668
       messages: 
       output: 'deck
 
@@ -1280,8 +1280,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceRoundManagerEnemyCards]
       name: TestReferenceRoundManagerEnemyCards
       fullName: Tests.ReferenceTests.TestReferenceRoundManagerEnemyCards
-      resultStatus: 1
-      duration: 0.4361749
+      resultStatus: 0
+      duration: 0.3354821
       messages: 
       output: 'deck
 
@@ -1301,8 +1301,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ReferenceTests/[PlayMode][Tests.ReferenceTests.TestReferenceRoundManagerHandScript]
       name: TestReferenceRoundManagerHandScript
       fullName: Tests.ReferenceTests.TestReferenceRoundManagerHandScript
-      resultStatus: 1
-      duration: 0.3312733
+      resultStatus: 0
+      duration: 0.351465
       messages: 
       output: 'deck
 
@@ -1322,8 +1322,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
       name: RoundTests
       fullName: Tests.RoundTests
-      resultStatus: 1
-      duration: 6.582749
+      resultStatus: 0
+      duration: 7.0625067
       messages: 
       output: 
       stacktrace: 
@@ -1338,8 +1338,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.PlayerGoesFirst]
       name: PlayerGoesFirst
       fullName: Tests.RoundTests.PlayerGoesFirst
-      resultStatus: 1
-      duration: 0.2528743
+      resultStatus: 0
+      duration: 0.328662
       messages: 
       output: 'deck
 
@@ -1359,8 +1359,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestAllPlayerCardsHaveTargets]
       name: TestAllPlayerCardsHaveTargets
       fullName: Tests.RoundTests.TestAllPlayerCardsHaveTargets
-      resultStatus: 1
-      duration: 0.320557
+      resultStatus: 0
+      duration: 0.3717733
       messages: 
       output: 'deck
 
@@ -1380,8 +1380,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestDrawCardFromEmptyDeck]
       name: TestDrawCardFromEmptyDeck
       fullName: Tests.RoundTests.TestDrawCardFromEmptyDeck
-      resultStatus: 1
-      duration: 0.2921441
+      resultStatus: 0
+      duration: 0.3847695
       messages: 
       output: 'deck
 
@@ -1401,8 +1401,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestEndRoundButton]
       name: TestEndRoundButton
       fullName: Tests.RoundTests.TestEndRoundButton
-      resultStatus: 1
-      duration: 0.3171317
+      resultStatus: 0
+      duration: 0.3413692
       messages: 
       output: 'deck
 
@@ -1422,8 +1422,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestFireballReference]
       name: TestFireballReference
       fullName: Tests.RoundTests.TestFireballReference
-      resultStatus: 1
-      duration: 0.2919462
+      resultStatus: 0
+      duration: 0.3788971
       messages: 
       output: 'deck
 
@@ -1443,8 +1443,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestHealReference]
       name: TestHealReference
       fullName: Tests.RoundTests.TestHealReference
-      resultStatus: 1
-      duration: 0.1787501
+      resultStatus: 0
+      duration: 0.403591
       messages: 
       output: 'deck
 
@@ -1464,8 +1464,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerCantEndTurnOnEnemyTurn]
       name: TestPlayerCantEndTurnOnEnemyTurn
       fullName: Tests.RoundTests.TestPlayerCantEndTurnOnEnemyTurn
-      resultStatus: 1
-      duration: 0.3415268
+      resultStatus: 0
+      duration: 0.458682
       messages: 
       output: 'deck
 
@@ -1485,8 +1485,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerCantHealMoreThanMaxHealth]
       name: TestPlayerCantHealMoreThanMaxHealth
       fullName: Tests.RoundTests.TestPlayerCantHealMoreThanMaxHealth
-      resultStatus: 1
-      duration: 0.2525521
+      resultStatus: 0
+      duration: 0.343266
       messages: 
       output: 'deck
 
@@ -1506,8 +1506,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerDamagesEnemyUntilWinning]
       name: TestPlayerDamagesEnemyUntilWinning
       fullName: Tests.RoundTests.TestPlayerDamagesEnemyUntilWinning
-      resultStatus: 1
-      duration: 0.3667586
+      resultStatus: 0
+      duration: 0.2678907
       messages: 
       output: 'deck
 
@@ -1527,8 +1527,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerLosesWhenTheyHaveZeroHealth]
       name: TestPlayerLosesWhenTheyHaveZeroHealth
       fullName: Tests.RoundTests.TestPlayerLosesWhenTheyHaveZeroHealth
-      resultStatus: 1
-      duration: 0.3049678
+      resultStatus: 0
+      duration: 0.2418165
       messages: 
       output: 'deck
 
@@ -1548,8 +1548,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerTurnAfterEnemyPlaysCard]
       name: TestPlayerTurnAfterEnemyPlaysCard
       fullName: Tests.RoundTests.TestPlayerTurnAfterEnemyPlaysCard
-      resultStatus: 1
-      duration: 3.2911503
+      resultStatus: 0
+      duration: 3.2516894
       messages: 
       output: 'deck
 
@@ -1569,8 +1569,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RoundTests/[PlayMode][Tests.RoundTests.TestPlayerWinsWhenEnemyHasZeroHealth]
       name: TestPlayerWinsWhenEnemyHasZeroHealth
       fullName: Tests.RoundTests.TestPlayerWinsWhenEnemyHasZeroHealth
-      resultStatus: 1
-      duration: 0.3007551
+      resultStatus: 0
+      duration: 0.2334488
       messages: 
       output: 'deck
 
@@ -1586,18 +1586,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1014
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RoundTests][suite]
-    m_ResultText: 'TestPlayerCantHealMoreThanMaxHealth (0,253s)
-
-      ---
-
-      deck
-
-      round'
+    m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 728}
-      m_SelectedIDs: bc413aab
-      m_LastClickedID: -1422245444
+      m_SelectedIDs: 96e0d1df
+      m_LastClickedID: -539893610
       m_ExpandedIDs: f4804fdce0de94f7de7487f828c00b42ba152f47b3671d60bc805a6d51f4e97affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1826,10 +1820,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 232
-    y: 73
-    width: 676
-    height: 343
+    x: 247
+    y: 81
+    width: 663
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 45a8ca1407ecfe946ab79d111da6928f
@@ -1841,9 +1835,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.1640999, y: -0.75827366, z: -28.674795}
+    m_Target: {x: -0.26904076, y: -2.0209436, z: -30.277637}
     speed: 2
-    m_Value: {x: -1.1640999, y: -0.75827366, z: -28.674795}
+    m_Value: {x: -0.43924847, y: -1.9320852, z: -30.254906}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1893,9 +1887,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.3974147
+    m_Target: 6.0291586
     speed: 2
-    m_Value: 6.3974147
+    m_Value: 6.3132553
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1941,10 +1935,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 437
-    width: 909
-    height: 250
+    x: 8
+    y: 352
+    width: 903
+    height: 327
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1959,20 +1953,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Tests/EditMode
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Tests/EditMode
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Gean\Desktop\testes\New Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c390000
-    m_LastClickedID: 14732
-    m_ExpandedIDs: 000000007e3900008039000000ca9a3b
+    m_SelectedIDs: 343a0000
+    m_LastClickedID: 14900
+    m_ExpandedIDs: 00000000243a0000263a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2000,7 +1994,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e39000080390000
+    m_ExpandedIDs: 00000000243a0000263a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2027,7 +2021,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000000000007e390000ca4300006e3900007c390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2077,10 +2071,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 910
-    y: 73
-    width: 455
-    height: 119
+    x: 912
+    y: 81
+    width: 445
+    height: 116
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -2115,17 +2109,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
-    width: 231
-    height: 343
+    x: 8
+    y: 81
+    width: 238
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f6320000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 62fbffff
+      m_ExpandedIDs: 5cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2170,10 +2164,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 201
+    x: 243
     y: 73
-    width: 586
-    height: 343
+    width: 675
+    height: 179
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -2183,7 +2177,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 586, y: 322}
+  m_TargetSize: {x: 675, y: 158}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2198,10 +2192,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -293
-    m_HBaseRangeMax: 293
-    m_VBaseRangeMin: -161
-    m_VBaseRangeMax: 161
+    m_HBaseRangeMin: -337.5
+    m_HBaseRangeMax: 337.5
+    m_VBaseRangeMin: -89.5
+    m_VBaseRangeMax: 89.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2218,24 +2212,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
-      width: 586
-      height: 322
+      y: 0
+      width: 675
+      height: 179
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 293, y: 161}
+    m_Translation: {x: 337.5, y: 89.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -293
-      y: -161
-      width: 586
-      height: 322
+      x: -337.5
+      y: -89.5
+      width: 675
+      height: 179
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 586, y: 343}
+  m_LastWindowPixelSize: {x: 675, y: 179}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2262,8 +2256,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 437
-    width: 909
-    height: 250
+    x: 8
+    y: 352
+    width: 903
+    height: 327
   m_ViewDataDictionary: {fileID: 0}

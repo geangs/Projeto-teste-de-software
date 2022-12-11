@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>09/12/2022 - 16:18:20</Generatedon>
-    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Generatedon>11/12/2022 - 18:01:21</Generatedon>
+    <Parser>MultiReportParser (3x OpenCoverParser)</Parser>
     <Assemblies>1</Assemblies>
-    <Classes>13</Classes>
-    <Files>13</Files>
-    <Coveredlines>200</Coveredlines>
-    <Uncoveredlines>51</Uncoveredlines>
-    <Coverablelines>251</Coverablelines>
-    <Totallines>504</Totallines>
-    <Linecoverage>79.6</Linecoverage>
+    <Classes>14</Classes>
+    <Files>14</Files>
+    <Coveredlines>158</Coveredlines>
+    <Uncoveredlines>165</Uncoveredlines>
+    <Coverablelines>323</Coverablelines>
+    <Totallines>630</Totallines>
+    <Linecoverage>48.9</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
-    <Coveredmethods>36</Coveredmethods>
-    <Totalmethods>44</Totalmethods>
-    <Methodcoverage>81.8</Methodcoverage>
+    <Coveredmethods>31</Coveredmethods>
+    <Totalmethods>52</Totalmethods>
+    <Methodcoverage>59.6</Methodcoverage>
   </Summary>
   <Coverage>
-    <Assembly name="Scripts" classes="13" coverage="79.6" coveredlines="200" coverablelines="251" totallines="504" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="36" totalmethods="44" methodcoverage="81.8">
-      <Class name="CardAction" coverage="50" coveredlines="4" coverablelines="8" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
+    <Assembly name="Scripts" classes="14" coverage="48.9" coveredlines="158" coverablelines="323" totallines="630" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="31" totalmethods="52" methodcoverage="59.6">
+      <Class name="CardAction" coverage="0" coveredlines="0" coverablelines="8" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
       <Class name="CardPlayer" coverage="0" coveredlines="0" coverablelines="4" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="CardScript" coverage="76.4" coveredlines="13" coverablelines="17" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="5" methodcoverage="80" />
+      <Class name="CardScript" coverage="22.2" coveredlines="6" coverablelines="27" totallines="53" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="6" methodcoverage="33.3" />
       <Class name="Constants" coverage="100" coveredlines="7" coverablelines="7" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
-      <Class name="Deck" coverage="100" coveredlines="38" coverablelines="38" totallines="71" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
-      <Class name="Draggable" coverage="11.1" coveredlines="4" coverablelines="36" totallines="66" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="5" methodcoverage="40" />
-      <Class name="EndTurnButton" coverage="69.2" coveredlines="9" coverablelines="13" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
-      <Class name="EnemyCards" coverage="97" coveredlines="33" coverablelines="34" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
-      <Class name="FireballAction" coverage="100" coveredlines="3" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
-      <Class name="HandScript" coverage="96.2" coveredlines="51" coverablelines="53" totallines="92" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="10" totalmethods="10" methodcoverage="100" />
-      <Class name="HealAction" coverage="100" coveredlines="3" coverablelines="3" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
-      <Class name="Health" coverage="100" coveredlines="18" coverablelines="18" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
-      <Class name="RoundManager" coverage="100" coveredlines="17" coverablelines="17" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Deck" coverage="97.3" coveredlines="37" coverablelines="38" totallines="71" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="Draggable" coverage="13.7" coveredlines="4" coverablelines="29" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="5" methodcoverage="40" />
+      <Class name="EndTurnButton" coverage="38.4" coveredlines="5" coverablelines="13" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="4" methodcoverage="50" />
+      <Class name="EnemyCards" coverage="20.5" coveredlines="7" coverablelines="34" totallines="56" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
+      <Class name="FakeConnection" coverage="69.5" coveredlines="48" coverablelines="69" totallines="107" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="7" methodcoverage="100" />
+      <Class name="FireballAction" coverage="0" coveredlines="0" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="HandScript" coverage="56.6" coveredlines="30" coverablelines="53" totallines="92" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="10" methodcoverage="70" />
+      <Class name="HealAction" coverage="0" coveredlines="0" coverablelines="3" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="Health" coverage="5.5" coveredlines="1" coverablelines="18" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="2" methodcoverage="50" />
+      <Class name="RoundManager" coverage="76.4" coveredlines="13" coverablelines="17" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
     </Assembly>
   </Coverage>
 </CoverageReport>

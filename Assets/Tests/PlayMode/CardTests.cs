@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 using TMPro;
 using UnityEditor;
@@ -6,6 +7,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 
+[SuppressMessage("ReSharper", "AccessToStaticMemberViaDerivedType")]
 public class CardTests
 {
 
@@ -50,7 +52,20 @@ public class CardTests
     public IEnumerator TestReturnCardToHand()
     {
         var hand = GameObject.FindObjectOfType<HandScript>();
-        hand.cards[3].GetComponent<CardScript>().pickUp();
+        var card = hand.cards[3].GetComponent<CardScript>();
+        card.transform.Translate(0, 1, 0);
+        card.release2();
+        Assert.AreEqual(card,hand.cards[3].GetComponent<CardScript>());
+        yield return null;
+    }
+    
+    [UnityTest]
+    public IEnumerator TestPlayCard()
+    {
+        var hand = GameObject.FindObjectOfType<HandScript>();
+        var card = hand.cards[3].GetComponent<CardScript>();
+        card.transform.Translate(0, 5, 0);
+        card.release2();
         Assert.AreEqual(null,hand.slots[3].card);
         yield return null;
     }

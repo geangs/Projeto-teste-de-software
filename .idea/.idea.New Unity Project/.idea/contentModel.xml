@@ -18,6 +18,7 @@
           <e p="Draggable.cs" t="Include" />
           <e p="EndTurnButton.cs" t="Include" />
           <e p="EnemyCards.cs" t="Include" />
+          <e p="FakeConnection.cs" t="Include" />
           <e p="FireballAction.cs" t="Include" />
           <e p="HandScript.cs" t="Include" />
           <e p="HealAction.cs" t="Include" />
@@ -36,6 +37,7 @@
             <e p="DraggableTests.cs" t="Include" />
             <e p="HandTests.cs" t="Include" />
             <e p="HealthTests.cs" t="Include" />
+            <e p="IntegrationTests.cs" t="Include" />
             <e p="PlayMode.asmdef" t="Include" />
             <e p="ReferenceTests.cs" t="Include" />
             <e p="RoundTests.cs" t="Include" />

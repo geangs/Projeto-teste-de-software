@@ -36,5 +36,18 @@ public class CardScript : MonoBehaviour
         this.playable = playable;
         GetComponent<Draggable>().draggable = playable;
     }
-    
+
+    public void release2()
+    {
+        if (transform.position.y > -2)
+        {
+            pickUp();
+            release();
+        }
+        else
+        {
+            GameObject.Find("HandDisplay").GetComponent<HandScript>().fitCard(transform.gameObject);
+        }
+    }
+
 }

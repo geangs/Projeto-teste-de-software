@@ -57,6 +57,7 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
+      <Path>build</Path>
       <Path>github</Path>
       <Path>obj</Path>
     </explicitExcludes>

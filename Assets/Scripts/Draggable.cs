@@ -49,18 +49,24 @@ public class Draggable : MonoBehaviour {
 
         if (draggable)
         {
-            if (myMainCamera.ScreenToWorldPoint(Input.mousePosition).y > 0)
-            {
-                selectedCard?.GetComponent<CardScript>().release();
-                selectedCard = null;
-            }
-            else
-            {
-                if (selectedCard != null)
-                    GameObject.Find("HandDisplay").GetComponent<HandScript>().fitCard(selectedCard);
-            }
-
+            selectedCard?.GetComponent<CardScript>().release2();
+            selectedCard = null;
         }
+
+//        if (draggable)
+//        {
+//            if (myMainCamera.ScreenToWorldPoint(Input.mousePosition).y > 0)
+//            {
+//                selectedCard?.GetComponent<CardScript>().release();
+//                selectedCard = null;
+//            }
+//            else
+//            {
+//                if (selectedCard != null)
+//                    GameObject.Find("HandDisplay").GetComponent<HandScript>().fitCard(selectedCard);
+//            }
+//
+//        }
 
     }
 }
