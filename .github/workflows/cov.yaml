@@ -36,7 +36,7 @@ jobs:
         with:
           unityVersion: 2019.4.40f1
           testMode: playmode
-          customParameters: -debugCodeOptimization -enableCodeCoverage -coverageResultsPath ./CodeCoverage/Report -coverageOptions generateAdditionalMetrics
+          customParameters: -debugCodeOptimization -enableCodeCoverage -coverageResultsPath ./CodeCoverage/New Unity Project-opencov/PlayMode -coverageOptions generateAdditionalMetrics
         
       - name: Upload XML report to Codecov
         uses: codecov/codecov-action@v2
