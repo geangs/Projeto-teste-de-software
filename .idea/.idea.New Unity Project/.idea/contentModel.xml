@@ -33,6 +33,7 @@
           </e>
           <e p="PlayMode" t="Include">
             <e p="CardTests.cs" t="Include" />
+            <e p="Convert.cs" t="Include" />
             <e p="DeckTests.cs" t="Include" />
             <e p="DraggableTests.cs" t="Include" />
             <e p="HandTests.cs" t="Include" />

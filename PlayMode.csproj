@@ -51,6 +51,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Tests\PlayMode\CardTests.cs" />
+     <Compile Include="Assets\Tests\PlayMode\Convert.cs" />
      <Compile Include="Assets\Tests\PlayMode\DeckTests.cs" />
      <Compile Include="Assets\Tests\PlayMode\DraggableTests.cs" />
      <Compile Include="Assets\Tests\PlayMode\HandTests.cs" />

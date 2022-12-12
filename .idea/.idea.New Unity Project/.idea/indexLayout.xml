@@ -60,6 +60,7 @@
       <Path>build</Path>
       <Path>github</Path>
       <Path>obj</Path>
+      <Path>server</Path>
     </explicitExcludes>
   </component>
 </project>

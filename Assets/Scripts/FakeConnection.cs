@@ -12,7 +12,7 @@ public class FakeConnection : MonoBehaviour {
 	private Thread clientReceiveThread; 	
 	
 	private bool connected = true;
-	public string response;
+	public string response = "";
 	
 	// Use this for initialization 	
 	void Start () {
